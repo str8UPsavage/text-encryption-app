@@ -74,9 +74,9 @@ It helps understand the basics of symmetric cryptography and the role of key man
 
 ## 👤 Author
 
-Developed by **Giombattista [Your Last Name]**,  
+Developed by **Giombattista Traina**,  
 SOC Analyst trainee and Red Team enthusiast.
 
-Academy: [Optional]  
+Academy: [Istituto Volta]  
 Certifications: In preparation for **CompTIA Security+**
 
