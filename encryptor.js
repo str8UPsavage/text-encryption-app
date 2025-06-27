@@ -51,5 +51,5 @@ function xorEncrypt(text, key) {
 }
 
 function xorDecrypt(text, key) {
-    return xorEncrypt(text, key); // XOR è simmetrico
+    return xorEncrypt(text, key); // XOR is symmetric
 }
