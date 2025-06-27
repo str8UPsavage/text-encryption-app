@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Encryption App</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -9,7 +10,7 @@
     <div class="container">
         <h1>Text Encryption</h1>
 
-        <textarea id="inputText" placeholder="Enter text here..."></textarea>
+        <textarea id="inputText" placeholder="Enter your text here..."></textarea>
 
         <select id="algorithm">
             <option value="caesar">Caesar Cipher</option>
@@ -17,7 +18,7 @@
             <option value="xor">XOR Cipher</option>
         </select>
 
-        <input type="text" id="key" placeholder="Enter key or shift">
+        <input type="text" id="key" placeholder="Key or numeric shift">
 
         <div class="buttons">
             <button onclick="encryptText()">Encrypt</button>
