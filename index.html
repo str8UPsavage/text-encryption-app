@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Encryption App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Encryption</h1>
+
+        <textarea id="inputText" placeholder="Enter text here..."></textarea>
+
+        <select id="algorithm">
+            <option value="caesar">Caesar Cipher</option>
+            <option value="vigenere">Vigenère Cipher</option>
+            <option value="xor">XOR Cipher</option>
+        </select>
+
+        <input type="text" id="key" placeholder="Enter key or shift">
+
+        <div class="buttons">
+            <button onclick="encryptText()">Encrypt</button>
+            <button onclick="decryptText()">Decrypt</button>
+        </div>
+
+        <h2>Output</h2>
+        <textarea id="outputText" readonly></textarea>
+    </div>
+
+    <script src="encryptor.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
