@@ -1,39 +1,20 @@
-# Text Encryption App 🔐
+#Text Encryption App
 
-This is a frontend-based demo app built with vanilla JavaScript, designed to simulate the functioning of three classical encryption methods:
+A simple app I built to understand how basic encryption techniques work. It's made with plain JavaScript (no frameworks) and simulates three classical methods: Caesar Cipher, Vigenère Cipher, and XOR encryption.
 
-- Caesar Cipher (numeric shift)
-- Vigenère Cipher (keyed substitution)
-- XOR Cipher (binary-level encryption)
+The goal was to explore how encryption and decryption function at a basic level, especially focusing on symmetric key logic, how inputs are handled, and what kind of mistakes could lead to weak encryption.
 
----
+### Tech stack
+- HTML / CSS
+- JavaScript (vanilla)
 
-## 🎯 Purpose
-
-This project was created as part of a cybersecurity learning path, to experiment with:
-
-- Encryption and decryption principles
-- Symmetric key logic
-- Input handling and basic cryptanalysis risks
+### Running it
+Just clone the repo and open `index.html` in your browser. You can enter any text, pick the encryption method, and see the result instantly. There’s no backend – it’s fully frontend-based.
 
 ---
 
-## 🛠 Technologies
+This was part of my cybersecurity learning journey. Nothing advanced or professional – just a way to get hands-on with the basics and understand how simple ciphers behave.
 
-- HTML
-- CSS
-- JavaScript (no frameworks)
-
----
-
-## 🚀 How to Use
-
-1. Clone or download the repository
-2. Open `index.html` in your browser
-3. Enter a message, choose an algorithm and key
-4. Click **Encrypt** or **Decrypt**
-
----
 
 ## 👤 Author
 
