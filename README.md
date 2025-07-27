@@ -37,4 +37,4 @@ This project was created as part of a cybersecurity learning path, to experiment
 
 ## 👤 Author
 
-Made by [Giombattista Traina], SOC Analyst & Cybersecurity Learner
+Made by Giombattista Traina, SOC Analyst & Cybersecurity Learner
